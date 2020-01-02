@@ -26,7 +26,7 @@ namespace Checkers_game.Pages
 
         public async Task OnGet()
         {
-            Boards = await _db.Boards.ToListAsync();
+            Boards = await _db.Boards.ToListAsync(); ;
         }
     }
 }
